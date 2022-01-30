@@ -12,7 +12,7 @@ user_input = form.text_area('Enter your text')
 submit = form.form_submit_button('Submit')
 
 #load model data
-url = "C:/Users/rzouga/Desktop/ALLINHERE/ALLINHERE/Deploy_Spam_Detection/models/spam_classifier.joblib"
+url = "models/spam_classifier.joblib"
 #f = "C:/Users/rzouga/Desktop/ALLINHERE/ALLINHERE/FraudDetection/DeployPipeComplet/models/pipeline_model_lgbm_final.joblib"
 # download model from Dropbox, cache it and load the model into the app
 @st.cache(allow_output_mutation=True)
